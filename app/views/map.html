@@ -4,10 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, viewport-fit=cover"/>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./asset/js/common.js"></script>
 </head>
 <body>
   <div id="map" style="width:500px;height:400px;"></div>
+  <p id="result"></p>
+  <p id="address"></p>
 	<script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=7d58b213449bff4878fe9939c5d027f6"></script>
+	<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 	<script>
 		var container = document.getElementById('map');
 		var options = {
@@ -27,7 +32,7 @@
 					lon = position.coords.longitude; // 경도
 				
 				var locPosition = new kakao.maps.LatLng(lat, lon), // 마커가 표시될 위치를 geolocation으로 얻어온 좌표로 생성합니다
-					message = '<div style="padding:5px;">여기에 계신가요?!</div>'; // 인포윈도우에 표시될 내용입니다
+					message = '<div class="marker" style="padding:5px;">내 위치</div>'; // 인포윈도우에 표시될 내용입니다
 				
 				// 마커와 인포윈도우를 표시합니다
 				displayMarker(locPosition, message);
@@ -65,7 +70,27 @@
 			
 			// 지도 중심좌표를 접속위치로 변경합니다
 			map.setCenter(locPosition);      
-		}    
+		}   
+		
+		// 지도에 클릭 이벤트를 등록합니다
+		// 지도를 클릭하면 마지막 파라미터로 넘어온 함수를 호출합니다
+		kakao.maps.event.addListener(map, 'click', function(mouseEvent) {        
+			
+			// 클릭한 위도, 경도 정보를 가져옵니다 
+			var latlng = mouseEvent.latLng;
+
+			// 좌표 -> 주소 변환 API
+			var url = 'https://dapi.kakao.com/v2/local/geo/coord2address.json?x='+latlng.getLng()+'8&y='+latlng.getLat();
+			var param = {};
+			callKakaoAPI('get', url, param, function(data){
+				console.log(data.documents[0].address.address_name);
+				alert(data.documents[0].address.address_name);
+			});
+		});
+
+		$(document).ready(function(){
+			
+		});
 	</script>
 </body>
 </html>

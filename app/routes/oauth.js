@@ -2,9 +2,9 @@ var express = require('express');
 var router = express.Router();
 var fs = require('fs');
 
-/* GET index listing. */
+/* GET oauth listing. */
 router.get('/', function(req, res, next) {
-  fs.readFile('views/index.html',function(error, data){
+  fs.readFile('views/oauth.html',function(error, data){
     if(error){
       console.log(error);
     } else {
