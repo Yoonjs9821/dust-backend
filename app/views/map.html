@@ -83,8 +83,28 @@
 			var url = 'https://dapi.kakao.com/v2/local/geo/coord2address.json?x='+latlng.getLng()+'8&y='+latlng.getLat();
 			var param = {};
 			callKakaoAPI('get', url, param, function(data){
-				console.log(data.documents[0].address.address_name);
-				alert(data.documents[0].address.address_name);
+
+				// 키워드로 장소 검색
+				url = 'https://dapi.kakao.com/v2/local/search/keyword.json?x='+latlng.getLng()+'8&y='+latlng.getLat()+'&query='+data.documents[0].address.address_name;
+				callKakaoAPI('get', url, param, function(data){
+					if(data.documents.length > 0){
+						var text = "";
+						$.each(data.documents, function(k,v){
+							if((v.category_name).indexOf("음식점") > -1){
+								if(v.phone == "") {
+									v.phone = "전화번호 정보 없음."
+								}
+								text += "#"+v.place_name + "\n" + v.phone + "\n\n";
+							}
+						});
+						if(text == ""){
+							text = "음식점이 없음.";
+						}
+						alert(text);
+					} else {
+						alert("검색된 건물 및 장소 없음.");
+					}
+				});
 			});
 		});
 
