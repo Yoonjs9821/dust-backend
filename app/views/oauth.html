@@ -7,73 +7,81 @@
 	<meta name="google-signin-scope" content="profile email">
 	<meta name="google-signin-client_id" content="387934008223-evjailh60a1g8c7ka7osjr81tlo38tpl.apps.googleusercontent.com">
 	<title>Login Bistro</title>
+	<link rel="stylesheet" type="text/css" href="./asset/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./asset/css/common.css">
 	<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
 	<script src="https://apis.google.com/js/platform.js" async defer></script>
 	<script src="./asset/js/common.js"></script>
 </head>
 <body>
-<a id="kakao-login-btn"></a>
-<a href="http://developers.kakao.com/logout"></a>
-<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
-<a href="#" onclick="signOut();">Sign out</a>
-<script type='text/javascript'>
-  //<![CDATA[
-	// 사용할 앱의 JavaScript 키를 설정해 주세요.
-	Kakao.init(KAKAO_APP_KEY);
-	// 카카오 로그인 버튼을 생성합니다.
-	Kakao.Auth.createLoginButton({
-	  container: '#kakao-login-btn',
-	  success: function(authObj) {
-		console.log(authObj.access_token);
-		USER_ACC_TOKEN = authObj.access_token;
-		Kakao.API.request({
-          url: '/v2/user/me',
-          success: function(res) {
-			// alert(JSON.stringify(res));
-			location.href = '/?token='+USER_ACC_TOKEN+'&type=kakao'+'&nickname='+res.properties.nickname+'&image='+res.properties.profile_image;
-          },
-          fail: function(error) {
-            alert(JSON.stringify(error));
-          }
-        });
-		
-	  },
-	  fail: function(err) {
-		 alert(JSON.stringify(err));
-	  }
-	});
-  //]]>
+	<div class="login_wrap">
+		<a class="btn_large kakao">카카오톡으로 시작하기</a>
+		<a class="btn_large naver">네이버로 시작하기</a>
+		<a class="btn_large facebook">페이스북으로 시작하기</a>
+		<a class="btn_large google">구글로 시작하기</a>
+	</div>
+		<a id="kakao-login-btn"></a>
+		<a href="http://developers.kakao.com/logout"></a>
+		<div class="g-signin2" data-onsuccess="onSignIn" data-theme="dark"></div>
+		<a href="#" onclick="signOut();">Sign out</a>
+		<script type='text/javascript'>
+		  //<![CDATA[
+			// 사용할 앱의 JavaScript 키를 설정해 주세요.
+			Kakao.init(KAKAO_APP_KEY);
+			// 카카오 로그인 버튼을 생성합니다.
+			Kakao.Auth.createLoginButton({
+			  container: '#kakao-login-btn',
+			  success: function(authObj) {
+				console.log(authObj.access_token);
+				USER_ACC_TOKEN = authObj.access_token;
+				Kakao.API.request({
+		          url: '/v2/user/me',
+		          success: function(res) {
+					// alert(JSON.stringify(res));
+					location.href = '/?token='+USER_ACC_TOKEN+'&type=kakao'+'&nickname='+res.properties.nickname+'&image='+res.properties.profile_image;
+		          },
+		          fail: function(error) {
+		            alert(JSON.stringify(error));
+		          }
+		        });
 
-  function onSignIn(googleUser) {
-	// Useful data for your client-side scripts:
-	var profile = googleUser.getBasicProfile();
-	console.log("ID: " + profile.getId()); // Don't send this directly to your server!
-	console.log('Full Name: ' + profile.getName());
-	console.log('Given Name: ' + profile.getGivenName());
-	console.log('Family Name: ' + profile.getFamilyName());
-	console.log("Image URL: " + profile.getImageUrl());
-	console.log("Email: " + profile.getEmail());
+			  },
+			  fail: function(err) {
+				 alert(JSON.stringify(err));
+			  }
+			});
+		  //]]>
 
-	// The ID token you need to pass to your backend:
-	var id_token = googleUser.getAuthResponse().id_token;
-	console.log("ID Token: " + id_token);
+		  function onSignIn(googleUser) {
+			// Useful data for your client-side scripts:
+			var profile = googleUser.getBasicProfile();
+			console.log("ID: " + profile.getId()); // Don't send this directly to your server!
+			console.log('Full Name: ' + profile.getName());
+			console.log('Given Name: ' + profile.getGivenName());
+			console.log('Family Name: ' + profile.getFamilyName());
+			console.log("Image URL: " + profile.getImageUrl());
+			console.log("Email: " + profile.getEmail());
 
-	if(getParameterByName('type') == 'logout'){
-		signOut();
-	} else {
-		location.href = '/?token='+id_token+'&type=google'+'&nickname='+profile.getName()+'&image='+profile.getImageUrl();
-	}
-	
-	}
-	function signOut() {
-		var auth2 = gapi.auth2.getAuthInstance();
-		auth2.signOut().then(function () {
-			alert('User signed out.');
-			location.href = '/';
-		});
-	}
+			// The ID token you need to pass to your backend:
+			var id_token = googleUser.getAuthResponse().id_token;
+			console.log("ID Token: " + id_token);
 
-</script>
+			if(getParameterByName('type') == 'logout'){
+				signOut();
+			} else {
+				location.href = '/?token='+id_token+'&type=google'+'&nickname='+profile.getName()+'&image='+profile.getImageUrl();
+			}
+
+			}
+			function signOut() {
+				var auth2 = gapi.auth2.getAuthInstance();
+				auth2.signOut().then(function () {
+					alert('User signed out.');
+					location.href = '/';
+				});
+			}
+
+		</script>
 
 </body>
 </html>
