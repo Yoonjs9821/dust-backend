@@ -24,7 +24,7 @@ var callKakaoAPI = function(type, url, param, callback){
 // User Token check
 var userTokenCheck = function(){
     USER_ACC_TOKEN = getParameterByName('token');
-    if(USER_ACC_TOKEN == null){
+    if(USER_ACC_TOKEN == null || USER_ACC_TOKEN == 'undefined'){
         USER_ACC_TOKEN = '';
     }
     if(USER_ACC_TOKEN == '' ){
@@ -35,6 +35,8 @@ var userTokenCheck = function(){
             alert('카카오 로그인 되어있음.');
         } else if(login_type == 'google'){
             alert('구글 로그인 되어있음.');
+        } else if(login_type == 'facebook'){
+            alert('페이스북 로그인 되어있음.');
         }
     }
 }
@@ -48,8 +50,13 @@ var userLogout = function(){
         USER_ACC_TOKEN = '';
         location.href = '/';
     } else if(login_type == 'google'){
+        alert('Google 로그아웃 되었습니다.');
         USER_ACC_TOKEN = '';
-        location.href = '/oauth?type=logout';
+        location.href = '/';
+    } else if(login_type == 'facebook'){
+        alert('Facebook 로그아웃 되었습니다.');
+        USER_ACC_TOKEN = '';
+        location.href = '/';
     }
     
 }

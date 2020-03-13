@@ -4,12 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width, viewport-fit=cover"/>
-	<meta name="google-signin-scope" content="profile email">
-	<meta name="google-signin-client_id" content="387934008223-evjailh60a1g8c7ka7osjr81tlo38tpl.apps.googleusercontent.com">
   <link rel="stylesheet" type="text/css" href="./asset/css/reset.css">
   <link rel="stylesheet" type="text/css" href="./asset/css/common.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+  <script src="https://apis.google.com/js/api:client.js"></script>
   <script src="https://apis.google.com/js/platform.js" async defer></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="./asset/js/jquery-3.4.1.min.js"></script>
   <script src="./asset/js/common.js"></script>
 </head>
 <body>
@@ -46,13 +46,13 @@
   <footer>
     <ul>
       <li>  
-        <span onclick="">로그인 정보 :: <span id="user_id"></span><img id="user_img" style="width: 60px;height: 60px;"/></span>
+        <span>로그인 정보 :: <span id="user_id"></span><img id="user_img" style="width: 60px;height: 60px;"/></span>
       </li>
       <li>  
-        <span onclick="userTokenCheck()">로그인</span>
+        <button onclick="userTokenCheck()">로그인</button>
       </li>
       <li>  
-        <span onclick="userLogout()">로그아웃</span>
+        <button onclick="userLogout()">로그아웃</button>
       </li>
     </ul>
   </footer>
@@ -64,17 +64,8 @@
       if(login_type == null){
         $('#user_id').text('no user login');
       } else {
-        if(login_type == 'kakao'){
-          console.log(USER_ACC_TOKEN);
-          $('#user_id').text(getParameterByName('nickname'));
-          $('#user_img').attr('src',getParameterByName('image'));
-
-        } else if(login_type == 'google'){
-          console.log(USER_ACC_TOKEN); 
-          $('#user_id').text(getParameterByName('nickname'));
-          $('#user_img').attr('src',getParameterByName('image'));
-        }
-
+        $('#user_id').text(getParameterByName('nickname'));
+        $('#user_img').attr('src',getParameterByName('image'));
       }
     });
   </script>
