@@ -8,8 +8,10 @@ var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var mapRouter = require('./routes/map');
 var oauthRouter = require('./routes/oauth');
+var chatRouter = require('./routes/chat');
 
 var app = express();
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -22,13 +24,14 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-// app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'views')));
+app.use(express.static(path.join(__dirname, 'public')));
+// app.use(express.static(path.join(__dirname, 'views')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/map', mapRouter);
 app.use('/oauth', oauthRouter);
+app.use('/chat', chatRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
@@ -51,3 +54,7 @@ module.exports = app;
 var server = app.listen(app.get('port'), function() {  
 	console.log('Express server listening on port ' + server.address().port);  
 });
+
+var listen = require('socket.io');
+var io = listen(server);
+require('./libs/socketConnection')(io);

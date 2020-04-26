@@ -4,7 +4,7 @@ var fs = require('fs');
 
 /* GET map listing. */
 router.get('/', function(req, res, next) {
-  fs.readFile('views/map.html',function(error, data){
+  fs.readFile('views/content/map.html',function(error, data){
     if(error){
       console.log(error);
     } else {
