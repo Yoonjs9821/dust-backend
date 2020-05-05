@@ -6,6 +6,7 @@ router.get('/main', function(req,res){
 });
 
 router.get('/room', function(req,res){
+    console.log(req.ip);
     res.render('chat/room');
 });
 
