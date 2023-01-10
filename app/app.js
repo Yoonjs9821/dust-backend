@@ -9,9 +9,10 @@ var usersRouter = require('./routes/users');
 var mapRouter = require('./routes/map');
 var oauthRouter = require('./routes/oauth');
 var chatRouter = require('./routes/chat');
+var datagoRouter = require('./routes/datago');
 
 var app = express();
-
+const cors = require("cors");
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -32,6 +33,18 @@ app.use('/users', usersRouter);
 app.use('/map', mapRouter);
 app.use('/oauth', oauthRouter);
 app.use('/chat', chatRouter);
+app.use('/datago', datagoRouter);
+
+const myCorsOptions = {
+  origin: function(origin, callback){
+    if ("http://localhost:3000".indexOf(origin) !== -1){
+      callback(null, true);
+    } else {
+      callback(new Error("Not Allowed Origin !!!"));
+    }
+  }
+}
+app.use(cors(myCorsOptions)); // cors 옵션 추가.
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
