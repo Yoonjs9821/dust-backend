@@ -4,7 +4,7 @@ const request = require('request');
 const cors = require('cors');
 const myCorsOptions = {
   origin: function(origin, callback){
-    if ("http://localhost:3000".indexOf(origin) !== -1){
+    if ("http://localhost:3000".indexOf(origin) !== -1 || "yoonjs92.com".indexOf(origin) !== -1){
       callback(null, true);
     } else {
       callback(new Error("Not Allowed Origin !!!"));
