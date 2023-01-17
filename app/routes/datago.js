@@ -26,7 +26,6 @@ const myCorsOptions = {
     }
   }
 }
-app.use(cors(myCorsOptions)); // cors 옵션 추가.
 
 const MsrstnInfoInqireSvc_Url = 'http://apis.data.go.kr/B552584/MsrstnInfoInqireSvc/'; // 측정소 정보
 const MsrstnInfoInqireSvc_method1 = 'getMsrstnList'; // 측정소 목록 조회
