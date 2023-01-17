@@ -12,7 +12,7 @@ const myCorsOptions = {
       logger.info("host : " + origin);
       callback(null, true);
     } else {
-      logger.info("Not Allowed Origin !!!");
+      logger.info("Not Allowed Origin !!! " + origin);
       callback(new Error("Not Allowed Origin !!!"));
     }
   }
