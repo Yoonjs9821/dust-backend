@@ -8,7 +8,7 @@ const logger = winston.createLogger();
 
 const myCorsOptions = {
   origin: function(origin, callback){
-    if ("http://localhost:3000".indexOf(origin) !== -1 || "yoonjs92.com".indexOf(origin) !== -1){
+    if (origin.indexOf("localhost") !== -1 || origin.indexOf("yoonjs92.com") !== -1){
       logger.info("host : " + origin);
       callback(null, true);
     } else {
