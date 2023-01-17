@@ -2,15 +2,31 @@ const express = require('express');
 const router = express.Router();
 const request = require('request');
 const cors = require('cors');
+// const winston = require('winston');
+
+// const logger = winston.createLogger();
+
+// const myCorsOptions = {
+//   origin: function(origin, callback){
+//     if ("http://localhost:3000".indexOf(origin) !== -1 || "yoonjs92.com".indexOf(origin) !== -1){
+//       logger.info("host : " + origin);
+//       callback(null, true);
+//     } else {
+//       callback(new Error("Not Allowed Origin !!!"));
+//     }
+//   }
+// }
+
 const myCorsOptions = {
   origin: function(origin, callback){
-    if ("http://localhost:3000".indexOf(origin) !== -1 || "yoonjs92.com".indexOf(origin) !== -1){
+    if ("http://localhost:3000".indexOf(origin) !== -1){
       callback(null, true);
     } else {
       callback(new Error("Not Allowed Origin !!!"));
     }
   }
 }
+app.use(cors(myCorsOptions)); // cors 옵션 추가.
 
 const MsrstnInfoInqireSvc_Url = 'http://apis.data.go.kr/B552584/MsrstnInfoInqireSvc/'; // 측정소 정보
 const MsrstnInfoInqireSvc_method1 = 'getMsrstnList'; // 측정소 목록 조회
