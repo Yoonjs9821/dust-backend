@@ -28,14 +28,14 @@ const myCorsOptions = {
 //   }
 // }
 
-const MsrstnInfoInqireSvc_Url = 'https://apis.data.go.kr/B552584/MsrstnInfoInqireSvc/'; // 측정소 정보
+const MsrstnInfoInqireSvc_Url = 'http://apis.data.go.kr/B552584/MsrstnInfoInqireSvc/'; // 측정소 정보
 const MsrstnInfoInqireSvc_method1 = 'getMsrstnList'; // 측정소 목록 조회
 const MsrstnInfoInqireSvc_method2 = 'getNearbyMsrstnList'; // 근접측정소 목록 조회
 const MsrstnInfoInqireSvc_method3 = 'getTMStdrCrdnt'; // TM 기준좌표 조회
 const MsrstnInfoInqireSvc_Encoding_key = 'JVVz9wTLyaNmQihosXPfMDVr2O7NgwfeMXCIMtKEThGOJnLUTEGX%2FeJOb7DAOCIjF2mhyjsMBjdp7wo12a5PSA%3D%3D';
 const MsrstnInfoInqireSvc_Decoding_key = 'JVVz9wTLyaNmQihosXPfMDVr2O7NgwfeMXCIMtKEThGOJnLUTEGX/eJOb7DAOCIjF2mhyjsMBjdp7wo12a5PSA==';
 
-const ArpltnInforInqireSvc = "https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/";  // 대기오염 정보
+const ArpltnInforInqireSvc = "http://apis.data.go.kr/B552584/ArpltnInforInqireSvc/";  // 대기오염 정보
 const ArpltnInforInqireSvc_method1 = 'getMsrstnAcctoRltmMesureDnsty'; // 측정소별 실시간 측정정보 조회
 const ArpltnInforInqireSvc_Encoding_key = 'JVVz9wTLyaNmQihosXPfMDVr2O7NgwfeMXCIMtKEThGOJnLUTEGX%2FeJOb7DAOCIjF2mhyjsMBjdp7wo12a5PSA%3D%3D';
 const ArpltnInforInqireSvc_Decoding_key = 'JVVz9wTLyaNmQihosXPfMDVr2O7NgwfeMXCIMtKEThGOJnLUTEGX/eJOb7DAOCIjF2mhyjsMBjdp7wo12a5PSA==';
