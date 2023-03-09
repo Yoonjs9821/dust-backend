@@ -1,4 +1,10 @@
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,textarea,p,blockquote,th,td,input,select,textarea,button,a{margin:0;padding:0; box-sizing:border-box}
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
 
 body{
     display: flex;
@@ -7,6 +13,7 @@ body{
     flex-direction: column;
     overflow: hidden;
     background-color: #CED8E4;
+    font-family: 'Pretendard-Regular';
 }
 .header{
     padding: 4rem;
@@ -117,7 +124,8 @@ body{
         font-size: 14px;
     }
     .reservationList li button{
-        min-width: 40px;
+        min-width:  60px;
+        margin-right: 0px;
     }
     .reservationInfo{
         display: none;
