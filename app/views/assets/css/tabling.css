@@ -52,12 +52,14 @@ body{
     flex-grow: 1;
     width: calc(100% - 190px - 3rem);
 }
-.reservationList li div:nth-child(2) p{
+.reservationList li div:nth-child(2) p {
+    font-size: 14px;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    line-height: 200%;
+    line-height: 1.5;
     max-width: 500px;
+    padding: 2px 0;
 }
 .reservationList li button{
     min-width: 100px;
@@ -82,7 +84,6 @@ body{
     width: 480px;
     border-radius: 0.75rem;
     padding: 1rem;
-    margin-left: 1rem;
 }
 .reservationInfo h3{
     font-size: 24px;
@@ -101,6 +102,14 @@ body{
 
 /* Mobile Device */
 @media (min-width:320px) and (max-width:1023px) { 
+    .title {
+        font-size: 40px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .header {
+        padding: 60px;
+    }
     .content{
         padding:8px;
     }
@@ -109,7 +118,7 @@ body{
         overflow-y: auto;
     }
     .reservationList li{
-        padding:8px;
+        padding: 12px 8px;
         margin-bottom: 8px;
     }
     .reservationList li div:nth-child(1){
