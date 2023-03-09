@@ -214,13 +214,50 @@ body{
 
 /* Desktop Device */
 @media all and (min-width:1024px) {
+    .header {
+        padding: 40px 0 72px;
+    }
+    .title {
+        font-size: 60px;
+        font-weight: normal;
+        text-align: center;
+    }
     .reservationList{
         padding: 0 1rem;
         flex: 1 1 auto;
         overflow-y: auto;
     }
+    .reservationList li {
+        margin-bottom: 1rem;
+        background-color: #ffffff;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        border-radius: 0.75rem;
+        padding: 12px;
+    }
+    .reservationList li button {
+        min-width: 80px;
+        padding: 0.5rem;
+        border-radius: 3px;
+        margin-right: 1rem;
+        font-size: 16px;
+    }
     .reservationInfo{
         overflow-y: auto;
+    }
+    .reservationInfo h3 {
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+    .reservationInfo dl {
+        display: flex;
+        padding: 0.5rem 0.25rem;
+    }
+    .reservationInfo dl + h3{
+        margin-top: 2rem;
     }
     .modal, .modalBackdrop {
         display: none;
