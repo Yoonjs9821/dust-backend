@@ -112,7 +112,7 @@ const ListRender = (array) => {
 
     $reservationList.innerHTML = html;
 
-    // Button Evnet
+    // EventListener
     const buttons = document.querySelectorAll('button');
     buttons.forEach(function(button){
         button.addEventListener('click', (e) => {
@@ -206,36 +206,38 @@ const modalRender= (data, index) => {
             <div>
                 <h3>예약 정보</h3><button class="modalClose">닫기</button>
             </div>
-            <dl>
-                <dt>예약 상태</dt>
-                <dd>${data[index].statusText}</dd>
-            </dl>
-            <dl>
-                <dt>예약 시간</dt>
-                <dd>${data[index].timeReserved}</dd>
-            </dl>
-            <dl>
-                <dt>접수 시간</dt>
-                <dd>${data[index].timeRegistered}</dd>
-            </dl>
+            <div>
+                <dl>
+                    <dt>예약 상태</dt>
+                    <dd>${data[index].statusText}</dd>
+                </dl>
+                <dl>
+                    <dt>예약 시간</dt>
+                    <dd>${data[index].timeReserved}</dd>
+                </dl>
+                <dl>
+                    <dt>접수 시간</dt>
+                    <dd>${data[index].timeRegistered}</dd>
+                </dl>
 
-            <h3>고객 정보</h3>
-            <dl>
-                <dt>고객 성명</dt>
-                <dd>${data[index].customer.name}</dd>
-            </dl>
-            <dl>
-                <dt>고객 등급</dt>
-                <dd>${data[index].customer.level}</dd>
-            </dl>
-            <dl>
-                <dt>고객 메모</dt>
-                <dd>${data[index].customer.memo}</dd>
-            </dl>
-            <dl>
-                <dt>요청사항</dt>
-                <dd>${data[index].customer.request}</dd>
-            </dl>
+                <h3>고객 정보</h3>
+                <dl>
+                    <dt>고객 성명</dt>
+                    <dd>${data[index].customer.name}</dd>
+                </dl>
+                <dl>
+                    <dt>고객 등급</dt>
+                    <dd>${data[index].customer.level}</dd>
+                </dl>
+                <dl>
+                    <dt>고객 메모</dt>
+                    <dd>${data[index].customer.memo}</dd>
+                </dl>
+                <dl>
+                    <dt>요청사항</dt>
+                    <dd>${data[index].customer.request}</dd>
+                </dl>
+            </div>
     `;
     
     $modal.innerHTML = html;
