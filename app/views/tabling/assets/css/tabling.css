@@ -6,7 +6,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,texta
     font-style: normal;
 }
 
-body{
+#app{
     display: flex;
     width: 100vw;
     height: 100vh;
@@ -150,15 +150,13 @@ body{
         pointer-events: auto;
         z-index: 50;
         position: fixed;
-        top: 50%;
-        left: 50%;
+        top: 100%;
         background: white;
-        transform: translate(-50%, -50%);
-        transition: .25s;
         visibility: hidden;
         opacity: 0;
         padding: 1rem;
         padding-bottom: 3rem;
+        display: none;
     }
     .modal div:nth-child(1){
         display: flex;
@@ -201,14 +199,19 @@ body{
         height: 100%;
         background: rgba(0, 0, 0, 0.6);
         z-index: 49;
+        top: 100%;
         transition: 0.25s;
         visibility: hidden;
         opacity: 0;
         backdrop-filter: blur(10px);
+        display: none;
     }
     .active{
+        display: block;
         visibility: visible !important;
         opacity: 1 !important;
+        transform: translate(0, -100%);
+        transition: .5s;
     }
 }
 
